@@ -8,11 +8,11 @@ To develop a deep neural network for Malaria infected cell recognition and to an
 
 Malaria dataset of 27,558 cell images with an equal number of parasitized and uninfected cells. A level-set based algorithm was applied to detect and segment the red blood cells. The images were collected and annotated by medical professionals.Here we build a convolutional neural network model that is able to classify the cells.
 
-![input](i1.png)
+![image](https://user-images.githubusercontent.com/74660507/194760466-cf678982-6a3f-483d-b1c4-d7f7da8959fa.png)
 
 ## Neural Network Model
 
-![input](i2.png)
+![image](https://user-images.githubusercontent.com/74660507/194760509-f108c764-7304-4bc9-9477-f95a4f619eea.png)
 
 ## DESIGN STEPS
 
@@ -45,11 +45,15 @@ Fit the model and predict the sample input.
 
 ## PROGRAM
 
-```
+```python
+
 '''
+
 Developed By: Jayashree Rao V
-Register Number:212221230023
+Register Number:212220230023
+
 '''
+
 import os
 import pandas as pd
 import numpy as np
@@ -164,19 +168,19 @@ else:
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-![output](ss1.png)
+![image](https://user-images.githubusercontent.com/74660507/194760554-a79d709c-4b81-49e0-b2cb-0341519c5b24.png)
 
 ### Classification Report
 
-![output](ss2.png)
+![image](https://user-images.githubusercontent.com/74660507/194760562-ae5c5712-b8b5-4ba7-89c2-8486d4ba1360.png)
 
 ### Confusion Matrix
 
-![output](ss3.png)
+![image](https://user-images.githubusercontent.com/74660507/194760583-318a3ba8-1261-43b6-82b1-e735358a6d65.png)
 
 ### New Sample Data Prediction
 
-![output](ss4.png)
+![image](https://user-images.githubusercontent.com/74660507/194760602-a1b78527-aa46-4b48-a4e5-d58acd2f4a8d.png)
 
 ## RESULT
 
